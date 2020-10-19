@@ -73,7 +73,7 @@ public class HomeController implements Initializable
     {
 
         //get fake members
-        ObservableList<SoundClip> list = Settings.fakeLoad();
+        ObservableList<SoundClip> list = Settings.getInstance().fakeLoad();
 
         table.setEditable(false);
 

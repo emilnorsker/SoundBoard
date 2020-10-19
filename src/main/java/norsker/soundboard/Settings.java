@@ -1,9 +1,8 @@
 package norsker.soundboard;
 
-import javafx.beans.binding.ListBinding;
+import com.github.cliftonlabs.json_simple.JsonObject;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
-import javafx.collections.transformation.SortedList;
 
 import javax.sound.sampled.AudioFormat;
 import javax.sound.sampled.SourceDataLine;
@@ -12,30 +11,62 @@ import java.util.HashMap;
 
 public class Settings
 {
-    public static boolean playAll = true;
-    public static final AudioFormat format = new AudioFormat(AudioFormat.Encoding.PCM_SIGNED, 44100.0F, 16, 2, 4, 44100.0F, false);
-    public static SourceDataLine defaultSpeaker;
-    public static SourceDataLine audioCable;
-    public static boolean isVACEnable =true;
+    public boolean playAll = true;
+    public final AudioFormat format = new AudioFormat(AudioFormat.Encoding.PCM_SIGNED, 44100.0F, 16, 2, 4, 44100.0F, false);
+    public SourceDataLine defaultSpeaker;
+    public SourceDataLine audioCable;
+    public boolean isVACEnabled =true; // save
+    public ArrayList<SoundClip> soundMappings = new ArrayList<>(); // save
+    public String defaultSpeakerName;
+    public String VACSpeakerName;
+    private JsonObject settings;
+
+    public static Settings instance;
+
+    private Settings()
+    {
+       // loadFromJson();
+        saveSettings();
+
+        if (defaultSpeakerName==null ||defaultSpeakerName.isEmpty())
+            defaultSpeakerName = "Primary Sound Driver";
+        if (VACSpeakerName==null ||VACSpeakerName.isEmpty() )
+            VACSpeakerName = "CABLE Input (VB-Audio Virtual Cable)";
+
+    }
+
+    public static Settings getInstance()
+    {
+        if (instance==null)
+            instance=new Settings();
 
 
+        return instance;
+    }
 
-    public static HashMap<String, String> FileKeyEntries;//map of <filename, keyInputs>
+    public void saveSettings()
+    {
+
+        settings = new JsonObject();
+        settings.put("soundMappings", soundMappings);
+        settings.put("isVacEnabled", isVACEnabled);
+        if (defaultSpeakerName==null ||defaultSpeakerName.isEmpty())
+            defaultSpeakerName = "Primary Sound Driver";
+        if (VACSpeakerName==null ||VACSpeakerName.isEmpty())
+            VACSpeakerName = "CABLE Input (VB-Audio Virtual Cable)";
 
 
-
-
-    /**
-     *
-     * todo load setting from file (json maybe)
-     */
+        settings.put("defaultSpeakerName", defaultSpeakerName);
+        settings.put("VACSpeakerName", VACSpeakerName);
+        System.out.println(settings);
+    }
     public void loadSettings()
     {
 
     }
 
 
-    public static ObservableList<SoundClip> fakeLoad()
+    public ObservableList<SoundClip> fakeLoad()
     {
         ArrayList<SoundClip> arrayList= new ArrayList<>();
 

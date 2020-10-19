@@ -31,6 +31,16 @@
             <version>RELEASE</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>com.github.akarazhev</groupId>
+            <artifactId>json-simple</artifactId>
+            <version>1.2</version>
+        </dependency>
+        <dependency>
+            <groupId>com.xnx3.json</groupId>
+            <artifactId>json</artifactId>
+            <version>1.0</version>
+        </dependency>
     </dependencies>
 
     

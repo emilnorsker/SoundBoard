@@ -5,7 +5,9 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import norsker.soundboard.Settings;
 import norsker.soundboard.SoundBoard;
+
 
 public class SoundBoardStarter extends Application
 {
@@ -19,8 +21,8 @@ public class SoundBoardStarter extends Application
     public void start(Stage primaryStage) throws Exception
     {
         SoundBoard soundBoard = SoundBoard.getInstance();
-        soundBoard.setMixerOutput("Primary Sound Driver", false);
-        soundBoard.setMixerOutput("CABLE Input (VB-Audio Virtual Cable)", true);
+        soundBoard.setMixerOutput(Settings.getInstance().defaultSpeakerName, false);
+        soundBoard.setMixerOutput(Settings.getInstance().VACSpeakerName, true);
 
 
 

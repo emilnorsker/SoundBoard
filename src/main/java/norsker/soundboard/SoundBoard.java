@@ -18,7 +18,7 @@ public class SoundBoard
 
     private SoundBoard()
     {
-        standardDataLineInfo = new DataLine.Info(SourceDataLine.class, Settings.format, BUFFERSIZE);
+        standardDataLineInfo = new DataLine.Info(SourceDataLine.class, Settings.getInstance().format, BUFFERSIZE);
     }
 
     public static SoundBoard getInstance()
@@ -63,24 +63,24 @@ public class SoundBoard
     {
 
         //setup datalines for speaker and vac
-        SourceDataLine defaultOutputLine = Settings.defaultSpeaker;
-        SourceDataLine VACOutputLine = Settings.audioCable;
+        SourceDataLine defaultOutputLine = Settings.getInstance().defaultSpeaker;
+        SourceDataLine VACOutputLine = Settings.getInstance().audioCable;
         try
         {
             //default speaker
 
 
-            Settings.defaultSpeaker = (SourceDataLine) defaultMixerOutput.getLine(standardDataLineInfo);
-            Settings.defaultSpeaker.open(Settings.format, INTERNAL_BUFFER_SIZE);
-            Settings.defaultSpeaker.start();
+            Settings.getInstance().defaultSpeaker = (SourceDataLine) defaultMixerOutput.getLine(standardDataLineInfo);
+            Settings.getInstance().defaultSpeaker.open(Settings.getInstance().format, INTERNAL_BUFFER_SIZE);
+            Settings.getInstance().defaultSpeaker.start();
 
             //VAC
-            if (Settings.isVACEnable && VACMixerOutput!= null)
+            if (Settings.getInstance().isVACEnabled && VACMixerOutput!= null)
             {
                 System.out.println("setting up vac");
-                Settings.audioCable = (SourceDataLine) VACMixerOutput.getLine(standardDataLineInfo);
-                Settings.audioCable.open(Settings.format, INTERNAL_BUFFER_SIZE);
-                Settings.audioCable.start();
+                Settings.getInstance().audioCable = (SourceDataLine) VACMixerOutput.getLine(standardDataLineInfo);
+                Settings.getInstance().audioCable.open(Settings.getInstance().format, INTERNAL_BUFFER_SIZE);
+                Settings.getInstance().audioCable.start();
             }
         } catch (Exception e) { e.printStackTrace();}
 
@@ -122,22 +122,22 @@ public class SoundBoard
                 inputStream = AudioSystem.getAudioInputStream(file);
                 format = inputStream.getFormat();
 
-                if (!format.equals(Settings.format))
-                    inputStream = AudioSystem.getAudioInputStream(Settings.format, inputStream);
+                if (!format.equals(Settings.getInstance().format))
+                    inputStream = AudioSystem.getAudioInputStream(Settings.getInstance().format, inputStream);
             if (inputStream != null)
             {
                 byte[] buffer = new byte[2048];
                 int bytesRead = 0;
 
-                while (playing && Settings.playAll)
+                while (playing && Settings.getInstance().playAll)
                 {
                     bytesRead = inputStream.read(buffer, 0, 2048);
                     if (bytesRead>0)
                     {
-                        Settings.defaultSpeaker.write(buffer, 0, bytesRead);
-                        if (Settings.isVACEnable)
+                        Settings.getInstance().defaultSpeaker.write(buffer, 0, bytesRead);
+                        if (Settings.getInstance().isVACEnabled)
                         {
-                            Settings.audioCable.write(buffer, 0, bytesRead);
+                            Settings.getInstance().audioCable.write(buffer, 0, bytesRead);
                         }
                     }
                     if (bytesRead < 2048)
@@ -151,9 +151,9 @@ public class SoundBoard
                 inputStream.close();
 
 
-            Settings.defaultSpeaker.close();
-            if (Settings.audioCable!= null)
-                Settings.audioCable.close();
+            Settings.getInstance().defaultSpeaker.close();
+            if (Settings.getInstance().audioCable!= null)
+                Settings.getInstance().audioCable.close();
             } catch (Exception e){e.printStackTrace();}
 
             try {
