@@ -12,7 +12,6 @@ import javafx.stage.Stage;
 import norsker.Utility;
 import norsker.soundboard.Settings;
 import norsker.soundboard.SoundBoard;
-import norsker.soundboard.SoundClip;
 
 import java.net.URL;
 import java.util.Arrays;
@@ -85,9 +84,4 @@ public class SettingsController implements Initializable
         Stage stage = (Stage) anchorPane.getScene().getWindow();
         stage.close();
     }
-
-
-
-
-
 }
