@@ -26,7 +26,7 @@ public class Settings
     public String VACSpeakerName;
     private JSONObject settings;
 
-    public static Settings instance;
+    private static Settings instance;
 
     private Settings()
     {
@@ -55,9 +55,6 @@ public class Settings
             defaultSpeakerName = "Primary Sound Driver";
         if (VACSpeakerName==null ||VACSpeakerName.isEmpty())
             VACSpeakerName = "CABLE Input (VB-Audio Virtual Cable)";
-
-
-        //todo array
         JSONArray soundArray = new JSONArray();
         for (SoundClip clip: soundMappings)
         {
@@ -65,13 +62,10 @@ public class Settings
             obj.put("name", clip.name);
             obj.put("filepath", clip.filepath);
             obj.put("keyBindings", clip.keyBindings);
-
             soundArray.add(obj);
-
         }
+
         settings.put("soundMappings", soundArray);
-
-
         settings.put("isVACEnabled", isVACEnabled);
         settings.put("defaultSpeakerName", defaultSpeakerName);
         settings.put("VACSpeakerName", VACSpeakerName);
@@ -86,6 +80,8 @@ public class Settings
             e.printStackTrace();
         }
     }
+
+
     public void loadSettings()
     {
         JSONParser parser = new JSONParser();
@@ -94,20 +90,11 @@ public class Settings
         {
             JSONObject jsonObject = (JSONObject) parser.parse(reader);
             System.out.println( "object = "+ jsonObject);
-
-
-
-
             JSONArray array= (JSONArray) jsonObject.get("soundMappings");
-
             array.forEach(clip -> parseSoundMapping((JSONObject) clip));
-
-
             isVACEnabled=(boolean)     jsonObject.get("isVACEnabled");
             defaultSpeakerName=(String)jsonObject.get("defaultSpeakerName");
             VACSpeakerName=(String)    jsonObject.get("VACSpeakerName");
-
-
         }catch (Exception e){e.printStackTrace();}
 
     }

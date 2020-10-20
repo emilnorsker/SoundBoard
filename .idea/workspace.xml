@@ -13,46 +13,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="initiation">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sounds.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/norsker/gui/controller/AddSoundClipController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/5_Hydra_Esportlogo_square.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/reload.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/view/addSoundClip.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_akarazhev_json_simple_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_xnx3_json_json_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ezmorph_ezmorph_1_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_json_lib_json_lib_jdk15_2_4.xml" beforeDir="false" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="JSON settings closes#2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/norsker/gui/controller/SettingsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/norsker/soundboard/MP3Converter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/settings.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Soundboard.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Soundboard.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/norsker/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/norsker/Utility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/norsker/gui/SoundBoardStarter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/norsker/gui/SoundBoardStarter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/norsker/gui/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/norsker/gui/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/norsker/keyboard/KeyListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/norsker/soundboard/KeyListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/norsker/keyboard/SavedKeyFilePairs.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/norsker/soundboard/Settings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/norsker/soundboard/Settings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/norsker/soundboard/SoundClip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/norsker/soundboard/SoundClip.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Sounds.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/images/pcDragon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/pcDragon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/addSoundClip.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/addSoundClip.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/view/home.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/home.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Sounds.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/images/pcDragon.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/images/pcDragon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/norsker/gui/SoundBoardStarter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/norsker/gui/SoundBoardStarter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/norsker/gui/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/norsker/gui/controller/HomeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/norsker/keyboard/KeyListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/norsker/keyboard/SavedKeyFilePairs.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/norsker/soundboard/Settings.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/norsker/soundboard/Settings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/norsker/soundboard/SoundClip.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/norsker/soundboard/SoundClip.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/view/addSoundClip.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/addSoundClip.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/view/home.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/home.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -342,7 +317,7 @@
       <workItem from="1602880644438" duration="5625000" />
       <workItem from="1602891262862" duration="7721000" />
       <workItem from="1603093948156" duration="1117000" />
-      <workItem from="1603096752002" duration="21648000" />
+      <workItem from="1603096752002" duration="25251000" />
     </task>
     <task id="LOCAL-00001" summary="initiation">
       <created>1602892100312</created>
@@ -365,7 +340,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603094842744</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="JSON reader and writer closes #3">
+      <created>1603153788773</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603153788773</updated>
+    </task>
+    <task id="LOCAL-00005" summary="JSON settings closes#2">
+      <created>1603154934921</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603154934921</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -388,7 +377,9 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <MESSAGE value="initiation" />
-    <option name="LAST_COMMIT_MESSAGE" value="initiation" />
+    <MESSAGE value="JSON reader and writer closes #3" />
+    <MESSAGE value="JSON settings closes#2" />
+    <option name="LAST_COMMIT_MESSAGE" value="JSON settings closes#2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602541560344">
@@ -399,10 +390,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="727" y="342" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080/-1920.-84.1920.1080@0.0.1920.1080" timestamp="1602545236588" />
-    <state x="765" y="246" key="#com.intellij.ide.util.MemberChooser" timestamp="1603107488722">
+    <state x="765" y="246" key="#com.intellij.ide.util.MemberChooser" timestamp="1603155659094">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="765" y="246" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080/-1920.-84.1920.1080@0.0.1920.1080" timestamp="1603107488722" />
+    <state x="765" y="246" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080/-1920.-84.1920.1080@0.0.1920.1080" timestamp="1603155659094" />
     <state x="765" y="246" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1602670381457" />
     <state x="588" y="229" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1602543995346">
       <screen x="0" y="0" width="1920" height="1080" />
@@ -417,29 +408,29 @@
     </state>
     <state x="-1254" y="197" key="FileChooserDialogImpl/0.0.1920.1080/-1920.-84.1920.1080@-1920.-84.1920.1080" timestamp="1602587391636" />
     <state x="666" y="281" key="FileChooserDialogImpl/0.0.1920.1080/-1920.-84.1920.1080@0.0.1920.1080" timestamp="1602891966047" />
-    <state width="1877" height="205" key="GridCell.Tab.0.bottom" timestamp="1603153643584">
+    <state width="1877" height="205" key="GridCell.Tab.0.bottom" timestamp="1603157709128">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1860" height="399" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.-84.1920.1080@-1920.-84.1920.1080" timestamp="1602618714890" />
-    <state width="1877" height="205" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.-84.1920.1080@0.0.1920.1080" timestamp="1603153643584" />
+    <state width="1877" height="205" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.-84.1920.1080@0.0.1920.1080" timestamp="1603157709128" />
     <state width="959" height="391" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1602670151382" />
-    <state width="1877" height="205" key="GridCell.Tab.0.center" timestamp="1603153643584">
+    <state width="1877" height="205" key="GridCell.Tab.0.center" timestamp="1603157709127">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1860" height="399" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.-84.1920.1080@-1920.-84.1920.1080" timestamp="1602618714889" />
-    <state width="1877" height="205" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.-84.1920.1080@0.0.1920.1080" timestamp="1603153643584" />
+    <state width="1877" height="205" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.-84.1920.1080@0.0.1920.1080" timestamp="1603157709127" />
     <state width="959" height="391" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1602670151382" />
-    <state width="1877" height="205" key="GridCell.Tab.0.left" timestamp="1603153643584">
+    <state width="1877" height="205" key="GridCell.Tab.0.left" timestamp="1603157709127">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1860" height="399" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.-84.1920.1080@-1920.-84.1920.1080" timestamp="1602618714889" />
-    <state width="1877" height="205" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.-84.1920.1080@0.0.1920.1080" timestamp="1603153643584" />
+    <state width="1877" height="205" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.-84.1920.1080@0.0.1920.1080" timestamp="1603157709127" />
     <state width="959" height="391" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1602670151382" />
-    <state width="1877" height="205" key="GridCell.Tab.0.right" timestamp="1603153643584">
+    <state width="1877" height="205" key="GridCell.Tab.0.right" timestamp="1603157709128">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1860" height="399" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.-84.1920.1080@-1920.-84.1920.1080" timestamp="1602618714889" />
-    <state width="1877" height="205" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.-84.1920.1080@0.0.1920.1080" timestamp="1603153643584" />
+    <state width="1877" height="205" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.-84.1920.1080@0.0.1920.1080" timestamp="1603157709128" />
     <state width="959" height="391" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1602670151382" />
     <state width="1877" height="363" key="GridCell.Tab.1.bottom" timestamp="1602877486628">
       <screen x="0" y="0" width="1920" height="1080" />
@@ -469,14 +460,18 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="440" y="114" key="SettingsEditor/0.0.1920.1080/-1920.-84.1920.1080@0.0.1920.1080" timestamp="1602802171982" />
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1603094850174">
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1603153793173">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-1920.-84.1920.1080@0.0.1920.1080" timestamp="1603094850174" />
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-1920.-84.1920.1080@0.0.1920.1080" timestamp="1603153793173" />
     <state x="616" y="292" key="run.anything.popup" timestamp="1602883031470">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="-1304" y="208" key="run.anything.popup/0.0.1920.1080/-1920.-84.1920.1080@-1920.-84.1920.1080" timestamp="1602591897589" />
     <state x="616" y="292" key="run.anything.popup/0.0.1920.1080/-1920.-84.1920.1080@0.0.1920.1080" timestamp="1602883031470" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1603155955399">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/-1920.-84.1920.1080@0.0.1920.1080" timestamp="1603155955399" />
   </component>
 </project>

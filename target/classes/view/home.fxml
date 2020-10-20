@@ -11,7 +11,6 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<?import javafx.scene.image.Image?>
 <AnchorPane fx:id="anchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="648.0" prefWidth="1249.0" style="-fx-background-color: #d8d7d8;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="norsker.gui.controller.HomeController">
     <children>
         <VBox prefHeight="648.0" prefWidth="290.0" style="-fx-background-color: #141415; -fx-opacity: 90%;">
@@ -21,7 +20,7 @@
 
                 <BorderPane prefHeight="21.0" prefWidth="244.0">
                     <center>
-                        <ImageView fitHeight="199.0" fitWidth="252.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+                        <ImageView fitHeight="218.0" fitWidth="252.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
                             <image>
                               <!--  <Image url="/images/pcDragon.png" /> -->
                             </image>
@@ -29,7 +28,7 @@
                     </center>
                 </BorderPane>
 
-                <BorderPane prefHeight="21.0" prefWidth="244.0" />
+                <BorderPane prefHeight="65.0" prefWidth="290.0" />
                 <Button fx:id="homeButton" mnemonicParsing="false" prefHeight="59.0" prefWidth="244.0" style="-fx-background-color: #141415; -fx-text-fill: #de0f10; -fx-opacity: 80%;" text="DASHBOARD" textAlignment="CENTER" textFill="#dd0e12" textOverrun="WORD_ELLIPSIS" VBox.vgrow="ALWAYS">
                     <cursor>
                         <Cursor fx:constant="HAND" />
@@ -66,25 +65,7 @@
                     </VBox.margin>
                 </Button>
             <BorderPane prefHeight="18.0" prefWidth="290.0" />
-                <Button mnemonicParsing="false" prefHeight="59.0" prefWidth="244.0" style="-fx-opacity: 80%; -fx-text-fill: #de0f10; -fx-background-color: #141415;" styleClass="navbar btn" text="CONVERT FILE" textFill="#de0f10">
-                    <cursor>
-                        <Cursor fx:constant="HAND" />
-                    </cursor>
-                    <padding>
-                        <Insets left="10.0" right="10.0" />
-                    </padding>
-                    <font>
-                        <Font name="Corbel" size="18.0" />
-                    </font>
-                    <effect>
-                        <DropShadow radius="41.875" width="148.5" />
-                    </effect>
-                    <VBox.margin>
-                        <Insets left="25.0" right="25.0" />
-                    </VBox.margin>
-                </Button>
-                <BorderPane prefHeight="40.0" prefWidth="244.0" />
-                <Button mnemonicParsing="false" prefHeight="59.0" prefWidth="244.0" style="-fx-opacity: 80%; -fx-text-fill: #de0f10; -fx-background-color: #141415;" styleClass="navbar btn" text="SETTINGS" textFill="#de0f10">
+                <Button fx:id="settingsBtn" mnemonicParsing="false" prefHeight="59.0" prefWidth="244.0" style="-fx-opacity: 80%; -fx-text-fill: #de0f10; -fx-background-color: #141415;" styleClass="navbar btn" text="SETTINGS" textFill="#de0f10">
                     <cursor>
                         <Cursor fx:constant="HAND" />
                     </cursor>
@@ -107,7 +88,7 @@
 
         <ImageView fx:id="reload" fitHeight="21.0" fitWidth="20.0" layoutX="1210.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
             <image>
-                  <Image url="/images/reload.png" />
+                 <!-- <Image url="/images/reload.png" /> -->
             </image>
         </ImageView>
     </children>

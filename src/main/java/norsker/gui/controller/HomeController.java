@@ -2,6 +2,7 @@ package norsker.gui.controller;
 
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Scene;
@@ -22,16 +23,18 @@ import java.util.ResourceBundle;
 
 public class HomeController implements Initializable
 {
-    public Button homeButton;
-    public TableView<SoundClip> table;
-    public Button addFileButton;
-    public ImageView reload;
+    @FXML private Button homeButton;
+    @FXML private TableView<SoundClip> table;
+    @FXML private Button addFileButton;
+    @FXML private ImageView reload;
+    @FXML private Button settingsBtn;
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle)
     {
         fillTableFromData();
         addFileButton.setOnAction(Event -> openAddSoundClip(Event));
+        settingsBtn.setOnAction(Event -> openSettings(Event));
         reload.setOnMouseClicked(Event -> fillTableFromData());
     }
 
@@ -93,5 +96,26 @@ public class HomeController implements Initializable
             System.out.println(e.toString());
         }
     }
+
+
+    public void openSettings(ActionEvent event) {
+        FXMLLoader loader = new FXMLLoader();
+        try {
+            Pane pane = loader.load(getClass().getClassLoader().getResource("view/settings.fxml"));
+            Stage stage = new Stage();
+
+            stage.initModality(Modality.APPLICATION_MODAL);
+            stage.initStyle(StageStyle.UNDECORATED);
+
+            stage.setScene(new Scene(pane));
+            stage.show();
+
+            stage.setOnCloseRequest(Event -> fillTableFromData());
+
+        } catch (IOException e) {
+            System.out.println(e.toString());
+        }
+    }
+
 
 }

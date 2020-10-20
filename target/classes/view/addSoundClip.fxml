@@ -4,7 +4,7 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="365.0" prefWidth="571.0" style="-fx-background-color: #3d292d8d7d8b; -fx-border-color: #141415;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="norsker.gui.controller.AddSoundClipController">
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="365.0" prefWidth="571.0" style="-fx-background-color: #d8d7d8; -fx-border-color: #141415;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="norsker.gui.controller.AddSoundClipController">
    <children>
       <TextField editable="false" layoutX="88.0" layoutY="64.0" text="Name" />
       <TextField editable="false" layoutX="88.0" layoutY="111.0" text="Filepath" />
