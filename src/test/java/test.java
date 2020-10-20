@@ -1,4 +1,6 @@
+import norsker.soundboard.Settings;
 import norsker.soundboard.SoundBoard;
+import norsker.soundboard.SoundClip;
 import org.junit.Test;
 
 import javax.sound.sampled.LineUnavailableException;
@@ -15,14 +17,18 @@ public class test
 
         try {
             sb.play("src/main/resources/sounds/munching.wav");
-            Thread.sleep(5000);
-            //sb.play("src/main/resources/sounds/Whistle.mp3");
-            //Thread.sleep(5000);
-        } catch (LineUnavailableException | InterruptedException e) {
+         } catch (LineUnavailableException e) {
             e.printStackTrace();
         }
+    }
 
 
-
+    @Test
+    public void Json()
+    {
+        Settings settings = Settings.getInstance();
+        settings.soundMappings.add(new SoundClip("hello", "sounds/phump.wav"));
+        settings.soundMappings.add(new SoundClip("bye", "sounds/phump.wav"));
+        settings.saveSettings();
     }
 }

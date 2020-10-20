@@ -1,4 +1,4 @@
-package norsker.keyboard;
+package norsker.soundboard;
 
 import org.jnativehook.keyboard.NativeKeyEvent;
 import org.jnativehook.keyboard.NativeKeyListener;

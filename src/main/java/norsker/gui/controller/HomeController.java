@@ -1,82 +1,47 @@
 package norsker.gui.controller;
 
-import javafx.beans.Observable;
 import javafx.collections.ObservableList;
+import javafx.event.ActionEvent;
+import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
-import javafx.scene.layout.AnchorPane;
-import javafx.scene.layout.GridPane;
-import javafx.scene.text.Text;
+import javafx.scene.image.ImageView;
+import javafx.scene.layout.Pane;
+import javafx.stage.*;
 import norsker.gui.ActionButtonCell;
 import norsker.soundboard.Settings;
 import norsker.soundboard.SoundBoard;
 import norsker.soundboard.SoundClip;
 
 import javax.sound.sampled.LineUnavailableException;
+import java.io.IOException;
 import java.net.URL;
-import java.util.HashMap;
-import java.util.Map;
 import java.util.ResourceBundle;
 
 public class HomeController implements Initializable
 {
-    public GridPane soundList;
     public Button homeButton;
     public TableView<SoundClip> table;
+    public Button addFileButton;
+    public ImageView reload;
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle)
     {
         fillTableFromData();
-
-
+        addFileButton.setOnAction(Event -> openAddSoundClip(Event));
+        reload.setOnMouseClicked(Event -> fillTableFromData());
     }
-
-
-//    public void fillGridPaneFromSettings(GridPane gridPane)
-//    {
-////        HashMap<String, String> soundClips = Settings.fakeLoad();
-//
-//        int count = 0;
-//        //for each sound clip entry
-////        for (Map.Entry<String,String> entry: soundClips.entrySet())
-//        {
-//            //add new row
-//            gridPane.addRow(count+1);
-//
-//            //create play button
-//            Button play = new Button("Play");
-//            play.setId(entry.getKey());
-//            play.setOnAction(actionEvent ->
-//            {
-//                System.out.println("sound");
-//                try {
-//                    SoundBoard.getInstance().play(entry.getKey());
-//                } catch (LineUnavailableException lineUnavailableException) {
-//                    lineUnavailableException.printStackTrace();
-//                }
-//            });
-//
-//
-//            //design layout
-//            gridPane.add(new Text(entry.getKey()), 0, count);
-//            gridPane.add(new Text(entry.getValue()),1, count);
-//            gridPane.add(new Button(), 2, count);
-//            count++;
-//
-//        }
-//
-//    }
 
     public void fillTableFromData()
     {
-
+        System.out.println("filling");
         //get fake members
-        ObservableList<SoundClip> list = Settings.getInstance().fakeLoad();
+        ObservableList<SoundClip> list = Settings.getInstance().load();
 
         table.setEditable(false);
-
         //create table
         TableColumn<SoundClip, String> c1 = new TableColumn("Name");
         c1.setMinWidth(250);
@@ -93,8 +58,7 @@ public class HomeController implements Initializable
 
 
         //todo make interactive
-        c2.setCellValueFactory(new PropertyValueFactory<>("keyBindings"));
-//        c4.setCellValueFactory(new PropertyValueFactory<>("dummy"));
+        c2.setCellValueFactory(new PropertyValueFactory<>("keyBindings"));//todo
         c4.setCellFactory(ActionButtonCell.<SoundClip>forTableColumn("Play", (SoundClip sound) ->
         {
             try {
@@ -106,20 +70,28 @@ public class HomeController implements Initializable
             return sound;
         }));
 
-        /*
-        column.setCellFactory(ActionButtonTableCell.<Person>forTableColumn("Remove", (Person p) -> {
-    table.getItems().remove(p);
-    return p;
-}));
-
-         */
-
-
-
         table.setItems(list);
         table.getColumns().addAll(c1,c2,c3,c4);
-
-
-
     }
+
+
+    public void openAddSoundClip(ActionEvent event) {
+        FXMLLoader loader = new FXMLLoader();
+        try {
+            Pane pane = loader.load(getClass().getClassLoader().getResource("view/addSoundClip.fxml"));
+            Stage stage = new Stage();
+
+            stage.initModality(Modality.APPLICATION_MODAL);
+            stage.initStyle(StageStyle.UNDECORATED);
+
+            stage.setScene(new Scene(pane));
+            stage.show();
+
+            stage.setOnCloseRequest(Event -> fillTableFromData());
+
+        } catch (IOException e) {
+            System.out.println(e.toString());
+        }
+    }
+
 }

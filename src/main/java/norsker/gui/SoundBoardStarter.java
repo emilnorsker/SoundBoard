@@ -5,6 +5,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import javafx.stage.StageStyle;
 import norsker.soundboard.Settings;
 import norsker.soundboard.SoundBoard;
 
@@ -27,9 +28,6 @@ public class SoundBoardStarter extends Application
 
 
         FXMLLoader loader = new FXMLLoader();
-
-
-
         loader.setLocation(getClass().getClassLoader().getResource("view/home.fxml"));
         Parent content = loader.load();
 
