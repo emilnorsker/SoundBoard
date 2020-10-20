@@ -60,7 +60,6 @@ public class SettingsController implements Initializable
                 result=count;
             count++;
         }
-
         return result;
     }
 
