@@ -13,7 +13,7 @@
       <Button fx:id="saveBtn" layoutX="369.0" layoutY="251.0" mnemonicParsing="false" text="save" />
       <Button fx:id="exitBtn" layoutX="137.0" layoutY="251.0" mnemonicParsing="false" text="exit" />
       <CheckBox fx:id="enableVAC" layoutX="337.0" layoutY="175.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="149.0" text="Use virtual audio cable" />
-      <ComboBox fx:id="VACSpeakerBox" layoutX="334.0" layoutY="111.0" prefWidth="150.0" />
-      <ComboBox fx:id="defaultSpeakerBox" layoutX="334.0" layoutY="64.0" prefWidth="150.0" />
+      <ComboBox fx:id="VACSpeakerBox" layoutX="334.0" layoutY="111.0" prefWidth="150.0" visibleRowCount="5" />
+      <ComboBox fx:id="defaultSpeakerBox" layoutX="334.0" layoutY="64.0" prefWidth="150.0" visibleRowCount="5" />
    </children>
 </AnchorPane>

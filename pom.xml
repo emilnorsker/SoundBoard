@@ -6,11 +6,12 @@
 
     <groupId>norsker</groupId>
     <artifactId>Soundboard</artifactId>
-    <version>0.0</version>
+    <version>1.0</version>
 
     <properties>
-        <maven.compiler.target>1.15</maven.compiler.target>
-        <maven.compiler.source>1.15</maven.compiler.source>
+        <maven.compiler.target>15</maven.compiler.target>
+        <maven.compiler.source>15</maven.compiler.source>
+        <java.home>C:/Users/emilg/.jdks/openjdk-15/bin/javac</java.home>
     </properties>
 
     <dependencies>
@@ -19,24 +20,28 @@
             <artifactId>maven-compiler-plugin</artifactId>
             <version>3.8.1</version>
         </dependency>
-
-        <dependency>
-            <groupId>com.1stleg</groupId>
-            <artifactId>jnativehook</artifactId>
-            <version>2.1.0</version>
-        </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>RELEASE</version>
-            <scope>test</scope>
-        </dependency>
         <dependency>
             <groupId>com.googlecode.json-simple</groupId>
             <artifactId>json-simple</artifactId>
             <version>1.1.1</version>
         </dependency>
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.0</version>
+                <configuration>
+                    <source>15</source>
+                    <target>15</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+
 
     
 </project>

@@ -9,12 +9,5 @@ public class Main
     {
         SoundBoardStarter mainFrame = new SoundBoardStarter();
         mainFrame.run(args);
-
-
-
-
-
-
-
     }
 }
