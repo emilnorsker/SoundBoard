@@ -21,20 +21,26 @@ public class SoundBoardStarter extends Application
     @Override
     public void start(Stage primaryStage) throws Exception
     {
-        SoundBoard soundBoard = SoundBoard.getInstance();
-        soundBoard.setMixerOutput(Settings.getInstance().defaultSpeakerName, false);
-        soundBoard.setMixerOutput(Settings.getInstance().VACSpeakerName, true);
+        try{
 
+            SoundBoard soundBoard = SoundBoard.getInstance();
+            soundBoard.setMixerOutput(Settings.getInstance().defaultSpeakerName, false);
+            soundBoard.setMixerOutput(Settings.getInstance().VACSpeakerName, true);
 
+            FXMLLoader loader = new FXMLLoader();
+            loader.setLocation(getClass().getClassLoader().getResource("view/home.fxml"));
+            Parent content = loader.load();
 
-        FXMLLoader loader = new FXMLLoader();
-        loader.setLocation(getClass().getClassLoader().getResource("view/home.fxml"));
-        Parent content = loader.load();
+            primaryStage.setTitle("PC Dragon Sounds");
+            primaryStage.setScene(new Scene(content));
+            primaryStage.show();
+        }
+        catch (Exception e){e.printStackTrace();}
+    }
 
-
-        primaryStage.setTitle("PC Dragon Sounds");
-        primaryStage.setScene(new Scene(content));
-        primaryStage.show();
+    public static void main(String[] args)
+    {
+        launch(args);
     }
 
 

@@ -14,23 +14,61 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Settings view and controller closes #6">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Soundboard.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_10.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_1stleg_jnativehook_2_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_1stleg_jnativehook_2_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_linux_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_linux_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_linux_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_linux_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_qdox_qdox_2_0_M8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_aether_provider_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_artifact_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_core_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_model_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_model_builder_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_plugin_api_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_repository_metadata_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_settings_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_settings_builder_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_plugins_maven_compiler_plugin_3_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_shared_maven_shared_incremental_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_shared_maven_shared_utils_3_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_classworlds_2_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_compiler_api_2_8_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_compiler_javac_2_8_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_compiler_manager_2_8_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_component_annotations_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_interpolation_1_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_java_0_9_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_utils_2_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_aether_aether_api_1_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_aether_aether_impl_1_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_aether_aether_spi_1_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_aether_aether_util_1_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_plexus_plexus_cipher_1_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_plexus_plexus_sec_dispatcher_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_sisu_sisu_guice_noaop_2_1_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_sisu_sisu_inject_bean_1_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_sisu_sisu_inject_plexus_1_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Soundboard.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Soundboard.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sounds.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/norsker/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/norsker/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/norsker/soundboard/KeyListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/home.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/home.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/settings.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/settings.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/norsker/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/norsker/gui/SoundBoardStarter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/norsker/gui/SoundBoardStarter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/images/5_Hydra_Esportlogo_square.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/images/pcDragon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/images/reload.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/norsker/Main.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/norsker/Utility.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/norsker/cache/BufferedFile.class" beforeDir="false" />
@@ -42,15 +80,17 @@
       <change beforePath="$PROJECT_DIR$/target/classes/norsker/gui/controller/AddSoundClipController.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/norsker/gui/controller/HomeController.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/norsker/gui/controller/SettingsController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/norsker/soundboard/KeyListener.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/norsker/soundboard/Settings.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/norsker/soundboard/SoundBoard$SoundPlayer.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/norsker/soundboard/SoundBoard.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/norsker/soundboard/SoundClip.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/home.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/home.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/settings.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/settings.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sounds/Whistle.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sounds/munching.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sounds/phump.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/view/addSoundClip.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/view/home.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/view/settings.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +158,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\plugins\maven\lib\maven3" />
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -157,9 +197,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15527344" />
     <property name="project.structure.side.proportion" value="0.45949075" />
     <property name="recentsLimit" value="5" />
@@ -167,18 +207,19 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\emilg\Desktop\JavaProjects\Soundboard\src\main\resources\sounds" />
-      <recent name="C:\Users\emilg\Desktop\JavaProjects\Soundboard\src\main\resources" />
-      <recent name="C:\Users\emilg\Desktop\JavaProjects\Soundboard\target\classes\norsker\gui" />
-      <recent name="C:\Users\emilg\Desktop\JavaProjects\Soundboard\src\main\java\norsker\soundboard" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\emilg\Desktop\JavaProjects\Soundboard\src\main\resources\images" />
+      <recent name="C:\Users\emilg\Desktop\JavaProjects\Soundboard\src\main\java\norsker\gui" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="view" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\emilg\Desktop\JavaProjects\Soundboard\src\main\resources\images" />
-      <recent name="C:\Users\emilg\Desktop\JavaProjects\Soundboard\src\main\java\norsker\gui" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="C:\Users\emilg\Desktop\JavaProjects\Soundboard\src\main\resources\sounds" />
+      <recent name="C:\Users\emilg\Desktop\JavaProjects\Soundboard\src\main\resources" />
+      <recent name="C:\Users\emilg\Desktop\JavaProjects\Soundboard\target\classes\norsker\gui" />
+      <recent name="C:\Users\emilg\Desktop\JavaProjects\Soundboard\src\main\java\norsker\soundboard" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -190,10 +231,13 @@
       <command value="mvn install:install-file -Dfile=C:\Users\emilg\Desktop\JavaProjects\Soundboard\Libraries\javafx-sdk-11.0.2\lib\javafx.base.jar -DgroupId=com.javafx -DartifactId=javafx-base -Dversion=1.0.0 -Dpackaging=jar" />
       <command value="mvn install:install-file -Dfile=C:\Users\emilg\Desktop\JavaProjects\Soundboard\Libraries\javafx-sdk-11.0.2\lib\javafx.controls.jar -DgroupId=com.javafx -DartifactId=javafx-controls -Dversion=1.0.0 -Dpackaging=jar" />
       <command value="mvn install:install-file -Dfile=C:\Users\emilg\Desktop\JavaProjects\Soundboard\Libraries\javafx-sdk-11.0.2\lib\javafx.fxml.jar -DgroupId=com.javafx -DartifactId=javafx-fxml -Dversion=1.0.0 -Dpackaging=jar " />
+      <command value="mvn -X" />
       <command value="mvn compile -X" />
+      <command value="mvn install -X" />
+      <command value="mvn package -X" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.SoundBoardStarter">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -219,37 +263,22 @@
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-15" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="norsker.Main" />
+    <configuration name="SoundBoardStarter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="norsker.gui.SoundBoardStarter" />
       <module name="Soundboard" />
-      <option name="VM_PARAMETERS" value="--module-path Libraries/javafx-sdk-11.0.2/lib --add-modules javafx.controls,javafx.fxml --add-exports javafx.graphics/com.sun.javafx.sg.prism=ALL-UNNAMED" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="norsker.*" />
+          <option name="PATTERN" value="norsker.gui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -278,46 +307,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Soundboard" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="test" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test.Json" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Soundboard" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="test" />
-      <option name="METHOD_NAME" value="Json" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Soundboard" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="test" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="Soundboard-1.0.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/Soundboard-1.0.jar" />
+      <method v="2" />
     </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
@@ -341,16 +333,13 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.test" />
-      <item itemvalue="JUnit.test.Json" />
-      <item itemvalue="JUnit.test.test" />
+      <item itemvalue="Application.SoundBoardStarter" />
+      <item itemvalue="JAR Application.Soundboard-1.0.jar" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.test.Json" />
-        <item itemvalue="JUnit.test" />
-        <item itemvalue="JUnit.test.test" />
+        <item itemvalue="Application.SoundBoardStarter" />
+        <item itemvalue="JAR Application.Soundboard-1.0.jar" />
       </list>
     </recent_temporary>
   </component>
@@ -375,6 +364,7 @@
       <workItem from="1603348591100" duration="1227000" />
       <workItem from="1603349852564" duration="801000" />
       <workItem from="1603350949720" duration="1938000" />
+      <workItem from="1603361641609" duration="1808000" />
     </task>
     <task id="LOCAL-00001" summary="initiation">
       <created>1602892100312</created>
@@ -476,10 +466,15 @@
     <option name="LAST_COMMIT_MESSAGE" value="Settings view and controller closes #6" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="195" width="1092" height="810" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603349825602">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="2363" y="131" width="1024" height="852" key="#Project_Structure" timestamp="1603361648278">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2363" y="131" width="1024" height="852" key="#Project_Structure/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1603361648278" />
+    <state x="2334" y="120" width="1092" height="960" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603363231228">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="414" y="195" width="1092" height="810" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/-1920.-84.1920.1080@0.0.1920.1080" timestamp="1603349825602" />
+    <state x="2334" y="120" width="1092" height="960" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1603363231228" />
     <state x="727" y="342" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602545236588">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -497,76 +492,88 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="588" y="229" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1080/-1920.-84.1920.1080@0.0.1920.1080" timestamp="1602543995346" />
-    <state x="690" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602542658724">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="2610" y="287" width="524" height="508" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603362699136">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="690" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080/-1920.-84.1920.1080@0.0.1920.1080" timestamp="1602542658724" />
-    <state x="666" y="281" key="FileChooserDialogImpl" timestamp="1603349902558">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="2610" y="287" width="524" height="508" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1603362699136" />
+    <state x="2586" y="281" width="442" height="519" key="FileChooserDialogImpl" timestamp="1603362008410">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="-1254" y="197" key="FileChooserDialogImpl/0.0.1920.1080/-1920.-84.1920.1080@-1920.-84.1920.1080" timestamp="1602587391636" />
     <state x="666" y="281" key="FileChooserDialogImpl/0.0.1920.1080/-1920.-84.1920.1080@0.0.1920.1080" timestamp="1603349902558" />
-    <state width="1877" height="395" key="GridCell.Tab.0.bottom" timestamp="1603361219870">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="2586" y="281" width="442" height="519" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1603362008410" />
+    <state width="1878" height="385" key="GridCell.Tab.0.bottom" timestamp="1603363443085">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1860" height="399" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.-84.1920.1080@-1920.-84.1920.1080" timestamp="1602618714890" />
     <state width="1877" height="395" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.-84.1920.1080@0.0.1920.1080" timestamp="1603361219870" />
     <state width="959" height="391" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1602670151382" />
-    <state width="1877" height="395" key="GridCell.Tab.0.center" timestamp="1603361219870">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1878" height="385" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1603363443085" />
+    <state width="1878" height="385" key="GridCell.Tab.0.center" timestamp="1603363443085">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1860" height="399" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.-84.1920.1080@-1920.-84.1920.1080" timestamp="1602618714889" />
     <state width="1877" height="395" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.-84.1920.1080@0.0.1920.1080" timestamp="1603361219870" />
     <state width="959" height="391" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1602670151382" />
-    <state width="1877" height="395" key="GridCell.Tab.0.left" timestamp="1603361219869">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1878" height="385" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1603363443085" />
+    <state width="1878" height="385" key="GridCell.Tab.0.left" timestamp="1603363443085">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1860" height="399" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.-84.1920.1080@-1920.-84.1920.1080" timestamp="1602618714889" />
     <state width="1877" height="395" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.-84.1920.1080@0.0.1920.1080" timestamp="1603361219869" />
     <state width="959" height="391" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1602670151382" />
-    <state width="1877" height="395" key="GridCell.Tab.0.right" timestamp="1603361219870">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1878" height="385" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1603363443085" />
+    <state width="1878" height="385" key="GridCell.Tab.0.right" timestamp="1603363443085">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1860" height="399" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.-84.1920.1080@-1920.-84.1920.1080" timestamp="1602618714889" />
     <state width="1877" height="395" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.-84.1920.1080@0.0.1920.1080" timestamp="1603361219870" />
     <state width="959" height="391" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1602670151382" />
-    <state width="1877" height="363" key="GridCell.Tab.1.bottom" timestamp="1603163621925">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1878" height="385" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1603363443085" />
+    <state width="1878" height="342" key="GridCell.Tab.1.bottom" timestamp="1603363237282">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="363" key="GridCell.Tab.1.bottom/0.0.1920.1080/-1920.-84.1920.1080@0.0.1920.1080" timestamp="1603163621925" />
     <state width="959" height="363" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1602669341869" />
-    <state width="1877" height="363" key="GridCell.Tab.1.center" timestamp="1603163621925">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1878" height="342" key="GridCell.Tab.1.bottom/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1603363237282" />
+    <state width="1878" height="342" key="GridCell.Tab.1.center" timestamp="1603363237282">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="363" key="GridCell.Tab.1.center/0.0.1920.1080/-1920.-84.1920.1080@0.0.1920.1080" timestamp="1603163621925" />
     <state width="959" height="363" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1602669341868" />
-    <state width="1877" height="363" key="GridCell.Tab.1.left" timestamp="1603163621925">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1878" height="342" key="GridCell.Tab.1.center/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1603363237282" />
+    <state width="1878" height="342" key="GridCell.Tab.1.left" timestamp="1603363237282">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="363" key="GridCell.Tab.1.left/0.0.1920.1080/-1920.-84.1920.1080@0.0.1920.1080" timestamp="1603163621925" />
     <state width="959" height="363" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1602669341868" />
-    <state width="1877" height="363" key="GridCell.Tab.1.right" timestamp="1603163621925">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1878" height="342" key="GridCell.Tab.1.left/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1603363237282" />
+    <state width="1878" height="342" key="GridCell.Tab.1.right" timestamp="1603363237282">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="363" key="GridCell.Tab.1.right/0.0.1920.1080/-1920.-84.1920.1080@0.0.1920.1080" timestamp="1603163621925" />
     <state width="959" height="363" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1602669341868" />
+    <state width="1878" height="342" key="GridCell.Tab.1.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1603363237282" />
     <state x="490" y="195" key="Maven.ArtifactSearchDialog" timestamp="1603150089783">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="490" y="195" key="Maven.ArtifactSearchDialog/0.0.1920.1080/-1920.-84.1920.1080@0.0.1920.1080" timestamp="1603150089783" />
-    <state x="440" y="114" key="SettingsEditor" timestamp="1603361249745">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="2360" y="114" width="1024" height="852" key="SettingsEditor" timestamp="1603363029356">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="440" y="114" key="SettingsEditor/0.0.1920.1080/-1920.-84.1920.1080@0.0.1920.1080" timestamp="1603361249745" />
+    <state x="2360" y="114" width="1024" height="852" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1603363029356" />
     <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1603158097847">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-1920.-84.1920.1080@0.0.1920.1080" timestamp="1603158097847" />
-    <state x="616" y="292" width="672" height="677" key="run.anything.popup" timestamp="1603361219851">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="2536" y="292" width="672" height="677" key="run.anything.popup" timestamp="1603362650364">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="-1304" y="208" key="run.anything.popup/0.0.1920.1080/-1920.-84.1920.1080@-1920.-84.1920.1080" timestamp="1602591897589" />
     <state x="616" y="292" width="672" height="677" key="run.anything.popup/0.0.1920.1080/-1920.-84.1920.1080@0.0.1920.1080" timestamp="1603361219851" />
+    <state x="2536" y="292" width="672" height="677" key="run.anything.popup/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1603362650364" />
     <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1603155955399">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
